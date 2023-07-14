@@ -1,0 +1,53 @@
+
+.header-text{
+  margin-top: 1rem;
+  margin-right: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.insta{
+  width:60px;
+  border-radius: 17px;
+  margin-left: 1rem;
+}
+.resume-div{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  text-align: end;
+  margin-bottom: 3rem;
+}
+.insta:hover{
+  width: 75px;
+  box-shadow: 0 0 20px rgb(77, 133, 255);
+  transition: 0.3s ease;
+}
+.insta:not(:hover){
+  transition-duration: 0.2s;
+}
+.logos{
+  margin-bottom: 3rem;
+}
+.resume-div{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+
+@media (max-width:500px) {
+  .insta{
+    width:50px;
+  }
+  .insta:hover{
+    width: 60px;
+    box-shadow: 0 0 20px rgb(77, 133, 255);
+    transition: 0.3s ease;
+  }
+  .header-btn{
+    margin: 0;
+
+  }
+  .header-btn:hover{
+    box-shadow: 0 0 20px blue;
+  }
+}
